@@ -1,0 +1,60 @@
+* {
+  font-family: "M PLUS 2";
+}
+header {
+  display: flex;
+}
+#logo {
+  height: 140px;
+}
+#title {
+  flex-grow: 1;
+  margin-left: 20px;
+}
+#title-text {
+  margin: 0 0 15px;
+}
+.title-line {
+  margin: 2px 0;
+}
+#menubar {
+  display: flex;
+  height: 40px;
+}
+.menu {
+  position: relative;
+  border-left: 1px solid gray;
+  flex-grow: 1;
+}
+.menu-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#menu1 {
+  border: 0;
+}
+.menu:hover {
+  background: paleturquoise;
+  transition: background 0.4s ease;
+}
+.heading {
+  background-color: black;
+  display: flex;
+}
+.heading-text {
+  color: white;
+  margin: 12px 0 12px 10px;
+}
+.text {
+  font-size: 25px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.inf-text {
+  font-family: "Shippori Mincho B1";
+  font-size: 24px;
+}

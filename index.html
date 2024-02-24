@@ -1,17 +1,52 @@
 <!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="utf-16">
-        <title>Scratchのプロジェクトを埋め込んでみた</title>
-    </head>
-    <body>
-        <h1>Scratchのプロジェクトを埋め込んでみた</h1>
-        <h2>＜例＞</h2><br>
-        <iframe src="https://scratch.mit.edu/projects/60917032/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-        <div style="background: silver; border: 4px solid slategray;">
-            <pre>
-                &lt;iframe src="https://scratch.mit.edu/projects/60917032/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen&gt;&lt;/iframe&gt;
-            </pre>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>hksM会社ホームページ</title>
+    <link href="/main.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet"/>
+    <link href="https://cdn.glitch.global/2d163ced-67c1-4bc1-806e-af22f00f3d05/logo.png?v=1671772903164" rel="shortcut icon"/>
+    <script src="/main.js"></script>
+  </head>
+  <body onload="Load();">
+    <header>
+      <img id="logo" src="https://cdn.glitch.global/2d163ced-67c1-4bc1-806e-af22f00f3d05/logo.png?v=1671772903164"/>
+      <div id="title">
+        <h1 id="title-text">hksM会社ホームページ</h1>
+        <hr class="title-line" size="3" noshade/>
+        <div id="menubar">
+          <div class="menu" id="menu1" onclick="location.href='/hksm2021.html'">
+            <h3 class="menu-text">トップ</h3>
+          </div>
+          <div class="menu" id="menu2" onclick="location.href='/information.html'">
+            <h3 class="menu-text">会社情報</h3>
+          </div>
+          <div class="menu" id="menu3" onclick="location.href='/product.html'">
+            <h3 class="menu-text">製品</h3>
+          </div>
+          <div class="menu" id="menu4" onclick="location.href='/service.html'">
+            <h3 class="menu-text">サービス</h3>
+          </div>
+          <div class="menu" id="menu5" onclick="location.href='/setting.html'">
+            <h3 class="menu-text">設定</h3>
+          </div>
         </div>
-    </body>
+        <hr class="title-line" size="3" noshade/>
+      </div>
+    </header>
+    <hr size="2" noshade/>
+    <main>
+      <div class="heading">
+        <h1 class="heading-text">トップニュース</h1>
+      </div>
+      <div id="top-news">
+        <span class="text">トップニュースなんて、存在しません！！</span>
+      </div>
+      <img class="image" src="https://cdn.glitch.global/2d163ced-67c1-4bc1-806e-af22f00f3d05/gorilla.jpeg?v=1708592487963"/>
+    </main>
+    <footer></footer>
+  </body>
 </html>
